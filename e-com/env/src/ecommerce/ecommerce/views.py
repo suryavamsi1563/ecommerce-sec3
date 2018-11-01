@@ -24,6 +24,7 @@ def contact_page(request):
         "title":"Contact",
         "content":"Welcome to Home Page",
         "contactform":contact_form,
+        "brand": "Puma"
     }
     if contact_form.is_valid():
         print("Valid")
